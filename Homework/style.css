@@ -89,24 +89,22 @@
 }
 
 .list{
-    display: inline-block;
-    color: #86878B;
+    width: 343px;
     margin-bottom: 111px;
-}
-
-.listItems{
+    display: inline-block;
     list-style-type: none;
     font-size: 14px;
+    color: #86878B;
 }
+
 
 .m-rl-40{
     margin: 0 40px;
 }
 
 .subject{
-    width: 343px;
-    height: 59px;
     padding-top: 18px;
+    padding-bottom: 18px;
     border: 1px solid #FFFFFF;
     background-color: #333333;
     font-size: 20px;
@@ -115,9 +113,8 @@
 }
 
 .cost{
-    width: 343px;
-    height: 100px;
     padding-top: 38px;
+    padding-bottom: 38px;
     border: 1px solid #FFFFFF;
     background-color: #333333;
     font-size: 24px;
@@ -126,43 +123,38 @@
 }
 
 .payments{
-    width: 343px;
-    height: 50px;
     padding-top: 13px;
+    padding-bottom: 13px;
+    border: 1px solid #FFFFFF;
     background-color: #333333;
     color:rgba(255, 255, 255, 0.7);
 }
 
 .rectangle{
-    width: 343px;
-    height: 5px;
+    padding: 5px;
+    border: 1px solid #FFFFFF;
     background-color: orange;
 }
 
 .mostPopular{
-    width: 343px;
-    height: 40px;
     padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #FFFFFF;
     background-color: orange;
     font-weight: bold;
     color: #FFFFFF;
 }
 
 .custom{
-    width: 343px;
-    height: 40px;
     padding-top: 8px;
+    padding-bottom: 8px;
     border: 1px solid #F5F5F5;
     background-color: #FFFFFF;
 }
 
 .b_Image{
-    background-blend-mode:multiply;
-    background-image: url(./images/4.png);
-    /* background: linear-gradient(rgba(51,51,51,0.58),rgba(51,51,51,0.58)), url("/images/4.png"); */
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: rgba(51, 51, 51, 0.58);
+    background: linear-gradient(rgba(51,51,51,0.58) ,rgba(51, 51, 51, 0.58)),url(./images/4.png);
+    background-size: cover;
     text-align: center;
 }
 
